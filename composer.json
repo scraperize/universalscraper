@@ -1,0 +1,24 @@
+{
+  "name": "scraperize/universalscraper",
+  "description": "Universal Scraper",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/scraperize/universalscraper",
+  "authors": [
+    {
+      "name": "Jonathan SAHM",
+      "homepage": "https://github.com/johnstyle"
+    }
+  ],
+  "support": {
+    "email": "contact@johnstyle.fr",
+    "issues": "https://github.com/scraperize/universalscraper/issues",
+    "wiki": "https://github.com/scraperize/universalscraper/wiki",
+    "source": "https://github.com/scraperize/universalscraper"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "autoload": {
+    "psr-4": { "Scraperize\\UniversalScraper\\": "src/" }
+  }
+}
